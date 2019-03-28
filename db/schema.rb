@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2019_03_25_163620) do
   create_table "fans", force: :cascade do |t|
     t.integer "artist_id"
     t.integer "user_id"
+    t.boolean "listened_to"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

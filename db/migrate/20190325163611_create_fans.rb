@@ -3,6 +3,7 @@ class CreateFans < ActiveRecord::Migration[5.2]
     create_table :fans do |t|
       t.integer :artist_id 
       t.integer :user_id 
+      t.boolean :listened_to
       t.timestamp :created_at 
       t.timestamp :updated_at 
     end  

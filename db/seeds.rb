@@ -12,13 +12,15 @@ daniel = User.create(first_name: "Daniel", last_name: "Ko", user_name: "danko" )
 jay_z = Artist.create(name: "Jay-Z")
 chance = Artist.create(name: "Chance the Rapper")
 j_cole = Artist.create(name: "J. Cole") 
+drake = Artist.create(name: "Drizzy Drake") 
+
 
 good_ass_job = Album.create(name: "Good Ass Job", release_date: "April 7, 2019", released?: false, artist: jay_z)
 hot_fyre = Album.create(name: "Hot Fyre", release_date: "November 15, 2019", released?: false, artist: chance)
 forest_hills_dr = Album.create(name: "Forest Hills", release_date: "Feb 1, 2020", released?: false, artist: j_cole)
+scorpion = Album.create(name: "Scorpion", release_date: "July, 15, 2019", released?:false, artist: drake)
 
-
-fan_1 = sabrina.create_fan(chance)
-fan_2 = eric.create_fan(jay_z)
-fan_3 = daniel.create_fan(j_cole)
+# fan_1 = sabrina.create_fan(chance)
+# fan_2 = eric.create_fan(jay_z)
+# fan_3 = daniel.create_fan(j_cole)
 
